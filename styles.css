@@ -1,0 +1,61 @@
+/* this is a style sheet */
+
+
+
+.frame {
+    display: flex;
+    flex-direction: column;
+    background-color: #303030;
+    color: #bbbbbb
+}
+
+h1 {
+    text-align: center;
+}
+
+div.interface {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    margin-bottom: 35px;
+}
+button.build {
+    background-color: blue;
+    color: white;
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+}
+#gridInput {
+    display: flex;
+    margin: auto;
+    margin-left: 15px;
+    margin-right: 20px;
+}
+
+.grid {
+    display: flex;
+    width: 45vw;
+    height: 45vw;
+    margin: auto;
+    background-color: gray;
+}
+
+.col {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+}
+
+.gonzo {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    background-color: black;
+}
